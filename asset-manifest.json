@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/weekday-job-list/static/css/main.6008d11f.css",
-    "main.js": "/weekday-job-list/static/js/main.5d2f3454.js",
+    "main.js": "/weekday-job-list/static/js/main.5ae3833f.js",
     "index.html": "/weekday-job-list/index.html",
     "main.6008d11f.css.map": "/weekday-job-list/static/css/main.6008d11f.css.map",
-    "main.5d2f3454.js.map": "/weekday-job-list/static/js/main.5d2f3454.js.map"
+    "main.5ae3833f.js.map": "/weekday-job-list/static/js/main.5ae3833f.js.map"
   },
   "entrypoints": [
     "static/css/main.6008d11f.css",
-    "static/js/main.5d2f3454.js"
+    "static/js/main.5ae3833f.js"
   ]
 }
