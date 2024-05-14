@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Checkbox, FormControl, FormControlLabel, Slider, TextField, Typography } from '@mui/material';
+import { FormControl, Slider, TextField, Typography } from '@mui/material';
 
 const Filters = ({ setFilters, filters }) => {
 
@@ -30,6 +30,22 @@ const Filters = ({ setFilters, filters }) => {
           max={10}
         />
       </div>
+      {/* <div className='slider'>
+        <Typography id="input-slider" gutterBottom>
+          Min Base pay
+        </Typography>
+        <Slider
+          aria-label="Min Experience"
+          value={filters.minExperience}
+          onChange={handleChange('minExperience')}
+          valueLabelDisplay="auto"
+          shiftStep={3}
+          step={1}
+          marks
+          min={0}
+          max={100000}
+        />
+      </div> */}
 
         <TextField
           id="company-name"

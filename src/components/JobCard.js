@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, CardContent, Typography, Button, CardActionArea, CardMedia, CardActions } from '@mui/material';
+import _ from 'lodash';
+import { Card, CardContent, Typography, Button, CardActionArea, CardMedia, CardActions, Chip } from '@mui/material';
 
 const JobCard = ({ job, index }) => {
   return (
@@ -18,7 +19,8 @@ const JobCard = ({ job, index }) => {
               {job.jobTitle}
             </Typography>
             <Typography variant="subtitle1">{job.companyName}</Typography>
-            <Typography variant="body1">{job.location}</Typography>
+            {/* <Typography variant="body1">{job.location}</Typography> */}
+            <Chip label={_.startCase(job.location)} />
             <Typography variant="body2">{job.jobDetailsFromCompany}</Typography>
             <Typography variant="body2">Experience: {job.minExp} - {job.maxExp} years</Typography>
             <Typography variant="body2">Role: {job.jobRole}</Typography>

@@ -12,7 +12,11 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+
+  & > div{
+    width: 30%;
+  }
 }
 
 .slider {
@@ -31,4 +35,8 @@
 }
 .MuiSlider-root{
   width: 300px !important;
+}
+
+.MuiPaper-root{
+  max-width: 100% !important;
 }
